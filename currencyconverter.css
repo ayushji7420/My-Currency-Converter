@@ -1,0 +1,108 @@
+body{
+    background-image: url("https://ideogram.ai/api/images/direct/3vysZWkUQ52ZnSE2Dv04wQ.jpg");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.container{
+   min-height:  100vh;
+   font-family: 'Oswald', sans-serif;
+   font-size: 25px;
+   font-weight: lighter;
+   background-color: rgba(255, 255, 255, 0.1);
+   max-width: 80vw;
+   margin: auto;
+   text-align: center;
+   
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(243, 157, 251, 0.6);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 25px;
+    padding: 4px;
+
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(233 136 58);
+    font-size: 20px;
+    transition: all;
+}
+nav li a:hover{
+    text-decoration: none;
+    color:rgb(102 192 199);
+    font-size: 23px;
+    transition-duration: 500ms;
+}
+nav ul{
+    display: flex ;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    width: 250px;
+    height: 25px;
+    font-size: 17px;
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    margin: 10px;
+    transition: all;
+
+}
+input:hover{
+    width: 260px;
+    height: 35px;
+    font-size: 21px;
+    transition-duration: 300ms;
+
+}
+select{
+    width: 250px;
+    height: 25px;
+    font-size: 17px;
+    font-family:'Oswald', sans-serif;
+    text-align: center;
+    margin: 10px;
+    transition: all;
+
+}
+select:hover{
+    width: 260px;
+    height: 35px;
+    font-size: 21px;
+    transition-duration: 300ms;
+
+}
+form{
+    text-align: center;
+    display: flexbox
+}
+#gotamount{
+    background-color: white;
+}
+#Logo{
+    height: 50px;
+    width: 70px;
+}
+#logoname{
+    margin-left: 10px;
+}

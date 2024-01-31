@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="/currencyconverter.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://ideogram.ai/api/images/direct/3rjVLDByQoOPxmc5Sf8icA.jpg" alt="moneyexchange logo" id="Logo">
+            <p id="logoname">MY Currency Converter</p>
+        </div>
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="about">About</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <br>
+        <h1>Enter the currency code to convert.</h1>
+        <div id="firstpart">
+            <input type="number" placeholder="  Enter the Amount" id="givenamount" /><br>
+            <select id="fromcurrencycode">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+        <h1>Enter the currency code you want.</h1>
+        
+        <div id="secondpart">
+            <select id="tocurrencycode">
+                <option></option>
+            </select><br>
+            <input type="number" id="gotamount" placeholder="Final Amount" disabled /><br>
+            
+        </div>
+        
+        
+    </div>
+
+    <footer>
+        Copyright &copy; All Rights Reserved
+    </footer>
+        <script src="currencyconverter.js"></script>
+        <script src="CC.js"></script>
+        <script src="CC2.js"></script>
+</body>
+</html>
